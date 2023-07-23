@@ -25,7 +25,7 @@ namespace PromptEvolution.Tests
         [InlineData("I said I'd meet with Jenny this afternoon at 2pm and after that I need to go to the dry cleaner and then the soccer game.  Leave an hour for each of those starting at 3:30")]
         public async Task Calendar_Test(string request)
         {
-            var currentDateTime = DateTimeOffset.ParseExact("20/07/2023 09.00.00 +02:00", "dd/MM/yyyy HH.mm.ss zzz", CultureInfo.InvariantCulture);
+            var currentDateTime = DateTimeOffset.ParseExact("20/07/2023 08.00.00 +02:00", "dd/MM/yyyy HH.mm.ss zzz", CultureInfo.InvariantCulture);
             var testResult = new TestResult<EventActionCollection>()
             {
                 Request = request,
@@ -49,7 +49,7 @@ namespace PromptEvolution.Tests
         [InlineData("Ich habe gesagt, dass ich mich heute Nachmittag um 14 Uhr mit Jenny treffe, danach muss ich zur Reinigung und dann zum Fußballspiel.Ab 15:30 Uhr habe ich jeweils eine Stunde Zeit für die beiden.")]
         public async Task Calendar_German_Test(string request)
         {
-            var currentDateTime = DateTimeOffset.ParseExact("20/07/2023 09.00.00 +02:00", "dd/MM/yyyy HH.mm.ss zzz", CultureInfo.InvariantCulture);
+            var currentDateTime = DateTimeOffset.ParseExact("20/07/2023 08.00.00 +02:00", "dd/MM/yyyy HH.mm.ss zzz", CultureInfo.InvariantCulture);
             var testResult = new TestResult<EventActionCollection>()
             {
                 Request = request,
