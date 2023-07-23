@@ -4,12 +4,12 @@
     "EventActions": [
       {
         "Action": "FindEventsAction",
-        "Day": null,
+        "Day": "2023-07-01T00:00:00+02:00",
         "TimeRange": {
-          "StartTime": null,
+          "StartTime": "2023-07-01T00:00:00+02:00",
           "EndTime": null
         },
-        "Description": "",
+        "Description": "Find events with Rosy",
         "Location": null,
         "Participants": [
           "Rosy"
