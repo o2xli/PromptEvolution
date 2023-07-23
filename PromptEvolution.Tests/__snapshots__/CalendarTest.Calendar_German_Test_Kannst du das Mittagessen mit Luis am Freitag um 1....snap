@@ -1,0 +1,33 @@
+﻿{
+  "Request": "Kannst du das Mittagessen mit Luis am Freitag um 12 Uhr aufnehmen und füge auch Isobel zum Tischtennisspiel am Mittwoch um 16 Uhr hinzu",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-21T12:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T12:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Mittagessen mit Luis",
+        "Location": null,
+        "Participants": [
+          "Luis"
+        ]
+      },
+      {
+        "Action": "AddParticipantsAction",
+        "Day": "2023-07-19T16:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-19T16:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Tischtennisspiel",
+        "Location": null,
+        "Participants": [
+          "Isobel"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+﻿{
+  "Request": "I would love to have a pepperoni with extra sauce, basil and arugula.Lovely weather we're having. Throw in some pineapple.  And give me a whole Greek and a Pale Ale.  Boy, those Mariners are doggin it. And how about a Mack and Jacks.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pepperoni",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Extra Sauce",
+          "Basil",
+          "Arugula",
+          "Pineapple"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Mack and Jacks",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

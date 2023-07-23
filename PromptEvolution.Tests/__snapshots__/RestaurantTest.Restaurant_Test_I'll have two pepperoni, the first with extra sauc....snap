@@ -1,0 +1,29 @@
+﻿{
+  "Request": "I'll have two pepperoni, the first with extra sauce and the second with basil.  Add pineapple to the first and add olives to the second.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Small",
+        "Name": "pepperoni",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "pineapple"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "pepperoni",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "olives"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+﻿{
+  "Request": "Ich hätte gerne zwei große, eine mit Peperoni und die andere mit extra Sauce.Die Peperoni bekommt Basilikum und die Extrasauce kanadischen Speck.Und dazu einen ganzen Salat.Die mit kanadischen Speck soll medium sein.Der Salat soll griechisch sein, ohne rote Zwiebeln.Und gib mir zwei Weizen und ein Sierra Nevada.Oh, und noch einen Salat ohne rote Zwiebeln.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Peperoni",
+          "Basilikum"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Medium",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Extra Sauce",
+          "Kanadischer Speck"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Griechischer Salat",
+        "RemovedIngredients": [
+          "Rote Zwiebeln"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 2,
+        "Size": "Small",
+        "Name": "Weizen",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Sierra Nevada",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Half",
+        "Name": "",
+        "RemovedIngredients": [
+          "Rote Zwiebeln"
+        ],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

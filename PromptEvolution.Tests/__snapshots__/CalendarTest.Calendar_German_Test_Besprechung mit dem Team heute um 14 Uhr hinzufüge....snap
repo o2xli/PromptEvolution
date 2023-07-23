@@ -1,0 +1,18 @@
+﻿{
+  "Request": "Besprechung mit dem Team heute um 14 Uhr hinzufügen",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-20T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-20T14:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Besprechung mit dem Team",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

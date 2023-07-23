@@ -1,0 +1,27 @@
+﻿{
+  "Request": "give me three regular salads and two Greeks and make the regular ones with no red onions",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "Regular Salad",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 2,
+        "Size": "Small",
+        "Name": "Greek",
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

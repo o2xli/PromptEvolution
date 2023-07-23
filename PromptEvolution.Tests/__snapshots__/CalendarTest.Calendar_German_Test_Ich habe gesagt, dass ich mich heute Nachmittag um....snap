@@ -1,0 +1,42 @@
+﻿{
+  "Request": "Ich habe gesagt, dass ich mich heute Nachmittag um 14 Uhr mit Jenny treffe, danach muss ich zur Reinigung und dann zum Fußballspiel.Ab 15:30 Uhr habe ich jeweils eine Stunde Zeit für die beiden.",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-20T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-20T14:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Treffen mit Jenny",
+        "Location": null,
+        "Participants": [
+          "Jenny"
+        ]
+      },
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-20T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-20T15:30:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Zeit für Reinigung",
+        "Location": null,
+        "Participants": []
+      },
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-20T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-20T16:30:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Zeit für Fußballspiel",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

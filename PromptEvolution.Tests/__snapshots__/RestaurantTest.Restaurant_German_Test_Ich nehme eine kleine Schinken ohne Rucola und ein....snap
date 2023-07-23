@@ -1,0 +1,31 @@
+﻿{
+  "Request": "Ich nehme eine kleine Schinken ohne Rucola und ein griechischen Salad mit Croutons und ohne rote Zwiebeln",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Schinken",
+        "RemovedIngredients": [
+          "Rucola"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "griechischen Salad",
+        "RemovedIngredients": [
+          "rote Zwiebeln"
+        ],
+        "AddedIngredients": [
+          "Croutons"
+        ]
+      }
+    ]
+  }
+}

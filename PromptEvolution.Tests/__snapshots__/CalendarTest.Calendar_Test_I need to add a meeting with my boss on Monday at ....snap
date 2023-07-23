@@ -1,0 +1,51 @@
+﻿{
+  "Request": "I need to add a meeting with my boss on Monday at 10am. Also make sure to schedule and appointment with Sally, May, and Boris tomorrow at 3pm. Now just add to it Jesse and Abby and make it last ninety minutes",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-24T10:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-24T10:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Meeting with my boss",
+        "Location": null,
+        "Participants": []
+      },
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-21T15:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T15:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Appointment with Sally, May, and Boris",
+        "Location": null,
+        "Participants": []
+      },
+      {
+        "Action": "AddParticipantsAction",
+        "Day": null,
+        "TimeRange": null,
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Jesse",
+          "Abby"
+        ]
+      },
+      {
+        "Action": "ChangeTimeRangeAction",
+        "Day": null,
+        "TimeRange": {
+          "StartTime": null,
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

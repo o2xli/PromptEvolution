@@ -1,0 +1,69 @@
+﻿{
+  "Request": "I'd like two large, one with pepperoni and the other with extra sauce.  The pepperoni gets basil and the extra sauce gets Canadian bacon.  And add a whole salad. Make the Canadian bacon a medium. Make the salad a Greek with no red onions.  And give me two Mack and Jacks and a Sierra Nevada.  Oh, and add another salad with no red onions.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "Pepperoni",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Basil"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "Extra Sauce",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Canadian bacon"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Greek Salad",
+        "RemovedIngredients": [
+          "Red onions"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": -1,
+        "Name": "Mack and Jacks",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": -1,
+        "Name": "Sierra Nevada",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Greek Salad",
+        "RemovedIngredients": [
+          "Red onions"
+        ],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

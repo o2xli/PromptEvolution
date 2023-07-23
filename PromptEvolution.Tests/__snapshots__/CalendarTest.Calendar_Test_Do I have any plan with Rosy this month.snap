@@ -1,0 +1,20 @@
+﻿{
+  "Request": "Do I have any plan with Rosy this month?",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "FindEventsAction",
+        "Day": null,
+        "TimeRange": {
+          "StartTime": null,
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      }
+    ]
+  }
+}

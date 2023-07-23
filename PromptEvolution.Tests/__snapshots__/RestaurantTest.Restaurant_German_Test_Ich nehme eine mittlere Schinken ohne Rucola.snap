@@ -1,0 +1,18 @@
+﻿{
+  "Request": "Ich nehme eine mittlere Schinken ohne Rucola",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Medium",
+        "Name": "Schinken",
+        "RemovedIngredients": [
+          "Rucola"
+        ],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

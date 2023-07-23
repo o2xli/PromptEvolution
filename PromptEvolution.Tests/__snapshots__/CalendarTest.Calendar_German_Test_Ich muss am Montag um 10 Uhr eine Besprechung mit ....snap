@@ -1,0 +1,40 @@
+﻿{
+  "Request": "Ich muss am Montag um 10 Uhr eine Besprechung mit meinem Chef einplanen.Außerdem müssen Sie morgen um 15 Uhr einen Termin mit Sally, May und Boris vereinbaren. Fügen Sie jetzt noch Jesse und Abby hinzu, damit es neunzig Minuten dauert.",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-24T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-24T10:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Besprechung mit meinem Chef",
+        "Location": null,
+        "Participants": []
+      },
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-21T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T15:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Termin mit Sally, May und Boris",
+        "Location": null,
+        "Participants": []
+      },
+      {
+        "Action": "AddParticipantsAction",
+        "Day": "2023-07-21T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T15:00:00+02:00",
+          "EndTime": "2023-07-21T16:30:00+02:00"
+        },
+        "Description": "Termin mit Sally, May, Boris, Jesse und Abby",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

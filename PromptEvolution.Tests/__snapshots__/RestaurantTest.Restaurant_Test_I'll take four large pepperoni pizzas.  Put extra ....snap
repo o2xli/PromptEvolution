@@ -1,0 +1,36 @@
+﻿{
+  "Request": "I'll take four large pepperoni pizzas.  Put extra sauce on two of them.  plus an M&J and a Pale Ale",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 4,
+        "Size": "Large",
+        "Name": "pepperoni pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "extra sauce"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "M&J",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

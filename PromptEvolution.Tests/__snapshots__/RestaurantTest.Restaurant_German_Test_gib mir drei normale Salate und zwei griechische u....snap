@@ -1,0 +1,27 @@
+﻿{
+  "Request": "gib mir drei normale Salate und zwei griechische und mach die normalen ohne rote Zwiebeln",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "normaler Salat",
+        "RemovedIngredients": [
+          "rote Zwiebeln"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 2,
+        "Size": "Small",
+        "Name": "griechischer Salat",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

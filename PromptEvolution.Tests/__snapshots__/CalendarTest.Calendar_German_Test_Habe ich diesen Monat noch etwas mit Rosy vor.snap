@@ -1,0 +1,124 @@
+﻿{
+  "Request": "Habe ich diesen Monat noch etwas mit Rosy vor?",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-01T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-01T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-02T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-02T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-03T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-03T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-04T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-04T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-05T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-05T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-06T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-06T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-07T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-07T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-08T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-08T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      },
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-09T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-09T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Rosy"
+        ]
+      }
+    ]
+  }
+}

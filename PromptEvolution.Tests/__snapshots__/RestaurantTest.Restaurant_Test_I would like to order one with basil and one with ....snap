@@ -1,0 +1,47 @@
+﻿{
+  "Request": "I would like to order one with basil and one with extra sauce.Throw in a salad and an ale.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": null,
+        "AddedIngredients": [
+          "Basil"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": null,
+        "AddedIngredients": [
+          "Extra Sauce"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Salad",
+        "RemovedIngredients": null,
+        "AddedIngredients": null
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Beer",
+        "RemovedIngredients": null,
+        "AddedIngredients": null
+      }
+    ]
+  }
+}

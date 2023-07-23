@@ -1,0 +1,18 @@
+﻿{
+  "Request": "Add meeting with team today at 2",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-20T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-20T02:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "meeting with team",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

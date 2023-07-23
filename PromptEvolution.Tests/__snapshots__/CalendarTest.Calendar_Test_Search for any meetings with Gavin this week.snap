@@ -1,0 +1,20 @@
+﻿{
+  "Request": "Search for any meetings with Gavin this week",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "FindEventsAction",
+        "Day": "2023-07-17T09:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-17T00:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Search for any meetings with Gavin",
+        "Location": null,
+        "Participants": [
+          "Gavin"
+        ]
+      }
+    ]
+  }
+}

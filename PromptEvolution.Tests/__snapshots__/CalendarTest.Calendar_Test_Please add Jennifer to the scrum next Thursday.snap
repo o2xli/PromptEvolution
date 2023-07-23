@@ -1,0 +1,20 @@
+﻿{
+  "Request": "Please add Jennifer to the scrum next Thursday",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddParticipantsAction",
+        "Day": "2023-07-27T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": null,
+          "EndTime": null
+        },
+        "Description": "",
+        "Location": null,
+        "Participants": [
+          "Jennifer"
+        ]
+      }
+    ]
+  }
+}

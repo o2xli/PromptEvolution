@@ -1,0 +1,83 @@
+﻿{
+  "Request": "Ich hätte gern zwei große mit Oliven und Pilzen.Und der erste bekommt extra Soße.  Der zweite bekommt Basilikum.  Beide bekommen Rucola.Und dazu ein Pils.Geben Sie mir zwei Griechen ohne rote Zwiebeln, eine halbe und eine ganze.Und ein großes mit Wurst und Pilzen.Dazu drei Pale Ales und ein Weizen.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Oliven",
+          "Pilze"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "ExtraLarge",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Basilikum",
+          "Rucola"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Griechen",
+        "RemovedIngredients": [
+          "rote Zwiebeln"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Half",
+        "Name": "Griechen",
+        "RemovedIngredients": [
+          "rote Zwiebeln"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Wurst",
+          "Pilze"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

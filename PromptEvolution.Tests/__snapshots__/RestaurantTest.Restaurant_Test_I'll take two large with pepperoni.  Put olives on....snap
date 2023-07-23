@@ -1,0 +1,67 @@
+﻿{
+  "Request": "I'll take two large with pepperoni.  Put olives on one of them. Make the olive a small.  And give me whole Greek plus a Pale Ale and an M&J.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Pepperoni"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "olive",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Olives"
+        ]
+      },
+      {
+        "Action": "RemoveIngredientsAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "olive",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Small"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Greek",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "M&J",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

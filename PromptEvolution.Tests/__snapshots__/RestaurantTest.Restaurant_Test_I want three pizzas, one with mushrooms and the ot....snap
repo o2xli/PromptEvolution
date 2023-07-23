@@ -1,0 +1,56 @@
+﻿{
+  "Request": "I want three pizzas, one with mushrooms and the other two with sausage.Make one sausage a small.  And give me a whole Greek and a Pale Ale.  And give me a Mack and Jacks.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "mushrooms"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "sausage"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Mack and Jacks",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

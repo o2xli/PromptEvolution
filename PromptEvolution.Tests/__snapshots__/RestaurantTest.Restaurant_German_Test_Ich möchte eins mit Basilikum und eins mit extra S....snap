@@ -1,0 +1,47 @@
+﻿{
+  "Request": "Ich möchte eins mit Basilikum und eins mit extra Soße bestellen.Dazu einen Salat und ein Pils.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "eins mit Basilikum",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Basilikum"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "eins mit extra Soße",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "extra Soße"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Salat",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pils",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

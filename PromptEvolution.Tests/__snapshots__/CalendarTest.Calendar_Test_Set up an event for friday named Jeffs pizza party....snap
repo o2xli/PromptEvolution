@@ -1,0 +1,18 @@
+﻿{
+  "Request": "Set up an event for friday named Jeffs pizza party at 6pm",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-21T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T18:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "Jeffs pizza party",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "Request": "I'll take a medium Pig with no arugula",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Medium",
+        "Name": "Pig",
+        "RemovedIngredients": [
+          "arugula"
+        ],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

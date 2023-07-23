@@ -1,0 +1,45 @@
+﻿{
+  "Request": "Ich möchte drei Pizzen, eine mit Pilzen und die anderen beiden mit Wurst.Mach aus einer Wurst eine kleine.  Und geben Sie mir einen ganzen griechischen Salad und ein Pils.Und geben Sie mir ein Weizen.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Pilze"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek Salad",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Beer",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Weizen",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

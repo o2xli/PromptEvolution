@@ -1,0 +1,31 @@
+﻿{
+  "Request": "I'll take a small Pig with no arugula and a Greek with croutons and no red onions",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pig",
+        "RemovedIngredients": [
+          "arugula"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek",
+        "RemovedIngredients": [
+          "red onions"
+        ],
+        "AddedIngredients": [
+          "croutons"
+        ]
+      }
+    ]
+  }
+}

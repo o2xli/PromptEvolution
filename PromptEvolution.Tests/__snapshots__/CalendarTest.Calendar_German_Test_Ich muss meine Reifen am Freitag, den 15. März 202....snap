@@ -1,0 +1,18 @@
+﻿{
+  "Request": "Ich muss meine Reifen am Freitag, den 15. März 2024, von 12:00 bis 14:00 Uhr wechseln lassen.",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2024-03-15T00:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2024-03-15T12:00:00+02:00",
+          "EndTime": "2024-03-15T14:00:00+02:00"
+        },
+        "Description": "Reifen wechseln lassen",
+        "Location": null,
+        "Participants": []
+      }
+    ]
+  }
+}

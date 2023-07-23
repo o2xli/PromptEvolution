@@ -1,0 +1,42 @@
+﻿{
+  "Request": "I'll take a yeti, a pale ale and a large with olives and take the extra cheese off the yeti and add a Greek",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "yeti",
+        "RemovedIngredients": [
+          "extra cheese"
+        ],
+        "AddedIngredients": [
+          "Greek"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "pale ale",
+        "RemovedIngredients": null,
+        "AddedIngredients": null
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": null,
+        "RemovedIngredients": [
+          "extra cheese"
+        ],
+        "AddedIngredients": [
+          "olives"
+        ]
+      }
+    ]
+  }
+}

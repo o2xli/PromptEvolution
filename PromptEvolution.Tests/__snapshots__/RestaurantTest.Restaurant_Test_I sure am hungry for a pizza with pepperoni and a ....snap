@@ -1,0 +1,40 @@
+﻿{
+  "Request": "I sure am hungry for a pizza with pepperoni and a salad with no croutons.  And I'm thirsty for 3 Pale Ales",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Pepperoni"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Salad",
+        "RemovedIngredients": [
+          "Croutons"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "Beer",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Pale Ale"
+        ]
+      }
+    ]
+  }
+}

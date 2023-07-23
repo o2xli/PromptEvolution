@@ -1,0 +1,109 @@
+﻿{
+  "Request": "I'd like two large with olives and mushrooms.  And the first one gets extra sauce.  The second one gets basil.  Both get arugula.  And add a Pale Ale. Give me a two Greeks with no red onions, a half and a whole.  And a large with sausage and mushrooms.  Plus three Pale Ales and a Mack and Jacks.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Olives",
+          "Mushrooms",
+          "Arugula"
+        ]
+      },
+      {
+        "Action": "AddIngredientsAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Olives",
+          "Mushrooms",
+          "Arugula",
+          "Extra Sauce"
+        ]
+      },
+      {
+        "Action": "AddIngredientsAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Olives",
+          "Mushrooms",
+          "Arugula",
+          "Basil"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Medium",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 2,
+        "Size": "Half",
+        "Name": "Greek",
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Greek",
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Sausage",
+          "Mushrooms"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 3,
+        "Size": "Large",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "Mack and Jacks",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

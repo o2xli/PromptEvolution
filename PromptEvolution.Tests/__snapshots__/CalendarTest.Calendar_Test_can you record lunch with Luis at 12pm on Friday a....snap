@@ -1,0 +1,33 @@
+﻿{
+  "Request": "can you record lunch with Luis at 12pm on Friday and also add Isobel to the Wednesday ping pong game at 4pm",
+  "Result": {
+    "EventActions": [
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-21T12:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T12:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "lunch with Luis",
+        "Location": null,
+        "Participants": [
+          "Luis"
+        ]
+      },
+      {
+        "Action": "AddEventAction",
+        "Day": "2023-07-19T16:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-19T16:00:00+02:00",
+          "EndTime": null
+        },
+        "Description": "ping pong game",
+        "Location": null,
+        "Participants": [
+          "Isobel"
+        ]
+      }
+    ]
+  }
+}
