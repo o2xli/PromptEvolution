@@ -5,30 +5,41 @@
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 3,
-        "Size": "Small",
+        "Quantity": 1,
+        "Size": "Whole",
         "Name": "Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "mushrooms"
+          "Mushrooms"
         ]
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 2,
+        "Quantity": 1,
         "Size": "Small",
         "Name": "Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "sausage"
+          "Sausage"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Sausage"
         ]
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Greek",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -37,16 +48,16 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Pale Ale",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "Beer",
+        "OrderItemType": "NamedPizza",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Mack and Jacks",
         "RemovedIngredients": [],
         "AddedIngredients": []

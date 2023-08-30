@@ -5,20 +5,42 @@
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 3,
-        "Size": "Small",
-        "Name": "Pizza",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Pizza with mushrooms",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "Pilze"
+          "Mushrooms"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pizza with sausage",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Sausage"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Whole",
+        "Name": "Pizza with sausage",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Sausage"
         ]
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Small",
-        "Name": "Greek Salad",
+        "Size": "Whole",
+        "Name": "Greek salad",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },
@@ -26,8 +48,8 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
-        "Name": "Beer",
+        "Size": "Whole",
+        "Name": "Pils",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },
@@ -35,7 +57,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Weizen",
         "RemovedIngredients": [],
         "AddedIngredients": []

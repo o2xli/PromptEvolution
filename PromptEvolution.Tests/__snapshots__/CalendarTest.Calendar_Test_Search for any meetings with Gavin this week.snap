@@ -4,12 +4,12 @@
     "EventActions": [
       {
         "Action": "FindEventsAction",
-        "Day": "2023-07-17T09:00:00+02:00",
+        "Day": "2023-07-20T08:00:00+02:00",
         "TimeRange": {
-          "StartTime": "2023-07-17T00:00:00+02:00",
-          "EndTime": null
+          "StartTime": "2023-07-20T08:00:00+02:00",
+          "EndTime": "2023-07-27T08:00:00+02:00"
         },
-        "Description": "Search for any meetings with Gavin",
+        "Description": "Search for any meetings with Gavin this week",
         "Location": null,
         "Participants": [
           "Gavin"

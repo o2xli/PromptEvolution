@@ -6,36 +6,41 @@
         "Action": "NewOrderAction",
         "OrderItemType": "NamedPizza",
         "Quantity": 1,
-        "Size": "Large",
-        "Name": "yeti",
+        "Size": "Small",
+        "Name": "Yeti",
         "RemovedIngredients": [
-          "extra cheese"
+          "Extra Cheese"
         ],
-        "AddedIngredients": [
-          "Greek"
-        ]
+        "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "pale ale",
-        "RemovedIngredients": null,
-        "AddedIngredients": null
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Large",
-        "Name": null,
-        "RemovedIngredients": [
-          "extra cheese"
-        ],
+        "Name": "Large Pizza",
+        "RemovedIngredients": [],
         "AddedIngredients": [
-          "olives"
+          "Olives"
         ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek Salad",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
       }
     ]
   }

@@ -7,9 +7,9 @@
         "OrderItemType": "Salad",
         "Quantity": 3,
         "Size": "Small",
-        "Name": "normaler Salat",
+        "Name": "Normal Salad",
         "RemovedIngredients": [
-          "rote Zwiebeln"
+          "Red Onions"
         ],
         "AddedIngredients": []
       },
@@ -18,7 +18,7 @@
         "OrderItemType": "Salad",
         "Quantity": 2,
         "Size": "Small",
-        "Name": "griechischer Salat",
+        "Name": "Greek Salad",
         "RemovedIngredients": [],
         "AddedIngredients": []
       }

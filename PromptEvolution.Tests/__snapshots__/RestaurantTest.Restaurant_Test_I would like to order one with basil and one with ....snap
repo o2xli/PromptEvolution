@@ -6,9 +6,9 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
-        "Size": "Small",
-        "Name": "Pizza",
-        "RemovedIngredients": null,
+        "Size": "Large",
+        "Name": "Pizza with Basil",
+        "RemovedIngredients": [],
         "AddedIngredients": [
           "Basil"
         ]
@@ -17,9 +17,9 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
-        "Size": "Small",
-        "Name": "Pizza",
-        "RemovedIngredients": null,
+        "Size": "Large",
+        "Name": "Pizza with Extra Sauce",
+        "RemovedIngredients": [],
         "AddedIngredients": [
           "Extra Sauce"
         ]
@@ -28,19 +28,19 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Large",
         "Name": "Salad",
-        "RemovedIngredients": null,
-        "AddedIngredients": null
+        "RemovedIngredients": [],
+        "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
-        "Name": "Beer",
-        "RemovedIngredients": null,
-        "AddedIngredients": null
+        "Size": "Large",
+        "Name": "Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
       }
     ]
   }

@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace PromptEvolution
@@ -29,10 +30,13 @@ namespace PromptEvolution
         {
             OpenAIAPI api = new OpenAIAPI();
             var chat = api.Chat.CreateConversation();
-            chat.Model = Model.ChatGPTTurbo;
+            chat.Model = Model.GPT4;
+            chat.RequestParameters.Temperature = 0.6;
+            chat.RequestParameters.TopP = 0.7;
+
 
             var schema = JsonSchema.FromType<T>();
-           
+
             var jsonSchema = schema.ToJson();
 
             var systemMessage = $$"""
@@ -54,11 +58,21 @@ namespace PromptEvolution
             chat.AppendUserInput(userInput);
 
             var result = await chat.GetResponseFromChatbotAsync().ConfigureAwait(false);
+            result = ExtractJsonCodeMarkDown(result);
 
-            if(!result.Trim().StartsWith("{") || !result.Trim().EndsWith("}"))
+            if (!result.Trim().StartsWith("{") || !result.Trim().EndsWith("}"))
             {
-                var validationResults = schema.Validate(result);
-                var validationResultsText = String.Join(Environment.NewLine,validationResults.Select(r => r.ToString()).ToArray());
+                var validationResultsText = string.Empty;
+                try
+                {
+                    var validationResults = schema.Validate(result);
+                    validationResultsText = String.Join(Environment.NewLine, validationResults.Select(r => r.ToString()).ToArray());
+                }
+                catch (JsonReaderException ex)
+                {
+                    validationResultsText = ex.ToString();
+                }
+
                 userInput = $$"""
                 The JSON object is invalid for the following reasons:
                 ```    
@@ -70,11 +84,28 @@ namespace PromptEvolution
                 chat.AppendUserInput(userInput);
 
                 result = await chat.GetResponseFromChatbotAsync().ConfigureAwait(false);
+                result = ExtractJsonCodeMarkDown(result);
             }
 
             var resultObject = JsonConvert.DeserializeObject<T>($"{result}");
 
             return resultObject;
         }
+
+        private static string ExtractJsonCodeMarkDown(string input)
+        {
+            var result = input;
+            if (!result.Trim().StartsWith("{") || !result.Trim().EndsWith("}") && result.Contains("```json"))
+            {
+                var startTag = "```json";
+                var endTag = "```";
+                int startIndex = result.IndexOf(startTag) + startTag.Length;
+                int endIndex = result.IndexOf(endTag, startIndex);
+                result = result.Substring(startIndex, endIndex - startIndex);
+            }
+
+            return result;
+        }
+        
     }
 }

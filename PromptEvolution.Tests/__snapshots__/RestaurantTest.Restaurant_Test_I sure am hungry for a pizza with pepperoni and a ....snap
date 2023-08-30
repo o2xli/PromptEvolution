@@ -6,7 +6,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Large",
         "Name": "Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
@@ -17,7 +17,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Large",
         "Name": "Salad",
         "RemovedIngredients": [
           "Croutons"
@@ -28,12 +28,10 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 3,
-        "Size": "Small",
-        "Name": "Beer",
+        "Size": "Large",
+        "Name": "Pale Ale",
         "RemovedIngredients": [],
-        "AddedIngredients": [
-          "Pale Ale"
-        ]
+        "AddedIngredients": []
       }
     ]
   }

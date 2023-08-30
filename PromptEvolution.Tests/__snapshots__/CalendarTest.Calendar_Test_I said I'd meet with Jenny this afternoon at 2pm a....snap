@@ -7,9 +7,9 @@
         "Day": "2023-07-20T00:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T14:00:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T15:00:00+02:00"
         },
-        "Description": "Meet with Jenny",
+        "Description": "Meeting with Jenny",
         "Location": null,
         "Participants": [
           "Jenny"
@@ -20,7 +20,7 @@
         "Day": "2023-07-20T00:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T15:30:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T16:30:00+02:00"
         },
         "Description": "Go to the dry cleaner",
         "Location": null,
@@ -31,9 +31,9 @@
         "Day": "2023-07-20T00:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T16:30:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T17:30:00+02:00"
         },
-        "Description": "Go to the soccer game",
+        "Description": "Soccer game",
         "Location": null,
         "Participants": []
       }

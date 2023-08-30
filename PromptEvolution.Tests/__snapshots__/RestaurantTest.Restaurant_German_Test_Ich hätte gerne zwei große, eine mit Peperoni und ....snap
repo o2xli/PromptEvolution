@@ -5,12 +5,11 @@
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 2,
+        "Quantity": 1,
         "Size": "Large",
-        "Name": "",
+        "Name": "Peperoni Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "Peperoni",
           "Basilikum"
         ]
       },
@@ -19,10 +18,9 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Medium",
-        "Name": "",
+        "Name": "Extra Sauce Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "Extra Sauce",
           "Kanadischer Speck"
         ]
       },
@@ -30,8 +28,8 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Whole",
-        "Name": "Griechischer Salat",
+        "Size": "Small",
+        "Name": "Ganzer Salat",
         "RemovedIngredients": [
           "Rote Zwiebeln"
         ],
@@ -59,8 +57,8 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Half",
-        "Name": "",
+        "Size": "Small",
+        "Name": "Salat",
         "RemovedIngredients": [
           "Rote Zwiebeln"
         ],

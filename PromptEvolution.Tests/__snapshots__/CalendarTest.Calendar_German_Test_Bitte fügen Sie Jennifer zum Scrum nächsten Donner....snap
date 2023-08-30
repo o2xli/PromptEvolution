@@ -6,7 +6,7 @@
         "Action": "AddParticipantsAction",
         "Day": "2023-07-27T00:00:00+02:00",
         "TimeRange": {
-          "StartTime": "2023-07-27T00:00:00+02:00",
+          "StartTime": "2023-07-27T08:00:00+02:00",
           "EndTime": null
         },
         "Description": "Scrum",

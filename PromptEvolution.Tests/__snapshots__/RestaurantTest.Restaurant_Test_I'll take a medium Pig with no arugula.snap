@@ -4,7 +4,7 @@
     "Orders": [
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "Pizza",
+        "OrderItemType": "NamedPizza",
         "Quantity": 1,
         "Size": "Medium",
         "Name": "Pig",

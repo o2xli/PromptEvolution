@@ -7,25 +7,29 @@
         "OrderItemType": "Pizza",
         "Quantity": 2,
         "Size": "Large",
-        "Name": "Peperoni",
+        "Name": "Pepperoni Pizza",
         "RemovedIngredients": [],
-        "AddedIngredients": []
+        "AddedIngredients": [
+          "Pepperoni"
+        ]
       },
       {
         "Action": "AddIngredientsAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "Oliven",
+        "Name": "Olive Pizza",
         "RemovedIngredients": [],
-        "AddedIngredients": []
+        "AddedIngredients": [
+          "Olives"
+        ]
       },
       {
-        "Action": "ChangeQuantityAction",
+        "Action": "NewOrderAction",
         "OrderItemType": "NamedPizza",
         "Quantity": 1,
         "Size": "Whole",
-        "Name": "griechische Pizza",
+        "Name": "Greek Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },
@@ -33,7 +37,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Pils",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -42,7 +46,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Weizen",
         "RemovedIngredients": [],
         "AddedIngredients": []

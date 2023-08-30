@@ -7,7 +7,7 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "eins mit Basilikum",
+        "Name": "Pizza with Basilikum",
         "RemovedIngredients": [],
         "AddedIngredients": [
           "Basilikum"
@@ -18,10 +18,10 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "eins mit extra Soße",
+        "Name": "Pizza with extra sauce",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "extra Soße"
+          "Extra Sauce"
         ]
       },
       {
@@ -29,7 +29,7 @@
         "OrderItemType": "Salad",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "Salat",
+        "Name": "Salad",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },

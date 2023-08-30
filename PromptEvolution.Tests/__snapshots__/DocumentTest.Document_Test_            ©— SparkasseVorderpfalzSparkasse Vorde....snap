@@ -1,0 +1,21 @@
+﻿{
+  "Request": "            ©\n\n— Sparkasse\nVorderpfalz\n\nSparkasse Vorderpfalz · Postfach 21 12 09 · 67012 Ludwigshafen am Rhein\nDepotnummer 710068669\nKundennummer 1049799082\nOliver Pierre Schmidt\nAuftragsnummer 504160/28.00\nHerrn Datum 28.08.2023\nOliver Pierre Schmidt Ihr Berater Herr Uwe Seemann\nDaimlerstr. 3 Telefon 0621 5992-3231\n67346 Speyer Telefax 0621 5992-865076\nRechnungsnummer W02018-0000029834/23\nUmsatzsteuer-ID DE149138080\n\n\n\n\nWertpapier Abrechnung Kauf\nNominale Wertpapierbezeichnung ISIN (WKN)\nStück 4.383 VANECK MSTR.DM DIVIDEND.UC.ETF NL0011683594 (A2JAHJ)\nAANDELEN OOP TOONDER O.N.\n\nHandels-/Ausführungsplatz Tradegate (Best Execution)\nBörsensegment XGAT\n\nMarket-Order\nLimit billigst\nSchlusstag/-Zeit 28.08.2023 16:42:19 Auftraggeber Oliver Pierre Schmidt\nAusführungskurs 34,19 EUR Auftragserteilung/ -ort Online-Banking\n\n\n\n\nGirosammelverwahrung Sammelurkunde\n\nKurswert 149.854,77- EUR\n\nProvision 599,42- EUR\n\nAusmachender Betrag 150.454,19- EUR\n\n\n\nDen Gegenwert buchen wir mit Valuta 30.08.2023 zu Lasten des Kontos 193529864 (IBAN DE26 5455 0010 0193 5298 64),\nBLZ 54550010 (BIC LUHSDE6AXXX).\nDie Wertpapiere schreiben wir Ihrem Depotkonto gut.\n\nSofern keine Umsatzsteuer ausgewiesen ist, handelt es sich um eine umsatzsteuerbefreite Finanzdienstleistung.\n\nFür das Geschäft wurde keine Anlageberatung erbracht.\n2018.08282036.0000013OR07\n\n\n\n\nDieses Dokument wurde maschinell erstellt und wird nicht unterschrieben.\nSparkasse Vorderpfalz Vorstand: Telefon +49 621 5992-0 BIC (SWIFT-Code): LUHSDE6AXXX\nLudwigstraße 52 Thomas Traue (Vorsitzender) Telefax +49 621 5992-865992\n67059 Ludwigshafen am Rhein Oliver Kolb www.sparkasse-vorderpfalz.de\nHRA 3647 (AG Ludwigshafen) Uli Sauer kontakt@sparkasse-vorderpfalz.de\nAnstalt des öffentlichen Rechts\n \nSparkassen-Finanzgruppe",
+  "Result": {
+    "Correspondent": "Sparkasse Vorderpfalz",
+    "Subject": "Wertpapier Abrechnung Kauf",
+    "Keywords": "VANECK MSTR.DM DIVIDEND.UC.ETF, Kauf, Wertpapier",
+    "CreationDate": "2023-08-28T16:42:19+02:00",
+    "IBAN": "DE26 5455 0010 0193 5298 64",
+    "BIC": "LUHSDE6AXXX",
+    "DocumentType": "Invoice",
+    "OrderItems": [
+      "VANECK MSTR.DM DIVIDEND.UC.ETF"
+    ],
+    "Amount": 150454,
+    "Currency": "EUR",
+    "Persons": [
+      "Oliver Pierre Schmidt",
+      "Uwe Seemann"
+    ]
+  }
+}

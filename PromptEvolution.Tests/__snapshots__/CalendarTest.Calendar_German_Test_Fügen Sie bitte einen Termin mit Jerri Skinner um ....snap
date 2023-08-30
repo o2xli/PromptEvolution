@@ -4,12 +4,12 @@
     "EventActions": [
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-20T00:00:00+02:00",
+        "Day": "2023-07-20T08:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T09:00:00+02:00",
           "EndTime": "2023-07-20T11:00:00+02:00"
         },
-        "Description": "Fügen Sie bitte einen Termin mit Jerri Skinner um 9 Uhr hinzu. Er muss 2 Stunden dauern.",
+        "Description": "Termin mit Jerri Skinner",
         "Location": null,
         "Participants": [
           "Jerri Skinner"

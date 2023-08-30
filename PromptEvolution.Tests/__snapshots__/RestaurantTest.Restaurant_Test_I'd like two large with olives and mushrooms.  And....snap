@@ -7,39 +7,13 @@
         "OrderItemType": "Pizza",
         "Quantity": 2,
         "Size": "Large",
-        "Name": "",
-        "RemovedIngredients": [],
-        "AddedIngredients": [
-          "Olives",
-          "Mushrooms",
-          "Arugula"
-        ]
-      },
-      {
-        "Action": "AddIngredientsAction",
-        "OrderItemType": "Pizza",
-        "Quantity": 1,
-        "Size": "Large",
-        "Name": "",
+        "Name": "Large Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
           "Olives",
           "Mushrooms",
           "Arugula",
-          "Extra Sauce"
-        ]
-      },
-      {
-        "Action": "AddIngredientsAction",
-        "OrderItemType": "Pizza",
-        "Quantity": 1,
-        "Size": "Large",
-        "Name": "",
-        "RemovedIngredients": [],
-        "AddedIngredients": [
-          "Olives",
-          "Mushrooms",
-          "Arugula",
+          "Extra Sauce",
           "Basil"
         ]
       },
@@ -47,15 +21,15 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Medium",
+        "Size": "Small",
         "Name": "Pale Ale",
         "RemovedIngredients": [],
         "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "Salad",
-        "Quantity": 2,
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
         "Size": "Half",
         "Name": "Greek",
         "RemovedIngredients": [
@@ -65,7 +39,7 @@
       },
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "Salad",
+        "OrderItemType": "NamedPizza",
         "Quantity": 1,
         "Size": "Whole",
         "Name": "Greek",
@@ -79,7 +53,7 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Large",
-        "Name": "",
+        "Name": "Large Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
           "Sausage",
@@ -90,7 +64,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 3,
-        "Size": "Large",
+        "Size": "Small",
         "Name": "Pale Ale",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -99,7 +73,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Large",
+        "Size": "Small",
         "Name": "Mack and Jacks",
         "RemovedIngredients": [],
         "AddedIngredients": []

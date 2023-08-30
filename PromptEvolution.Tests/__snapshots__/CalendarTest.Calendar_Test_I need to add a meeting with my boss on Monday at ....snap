@@ -4,47 +4,45 @@
     "EventActions": [
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-24T10:00:00+02:00",
+        "Day": "2023-07-24T08:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-24T10:00:00+02:00",
           "EndTime": null
         },
         "Description": "Meeting with my boss",
         "Location": null,
-        "Participants": []
+        "Participants": [
+          "My Boss"
+        ]
       },
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-21T15:00:00+02:00",
+        "Day": "2023-07-21T08:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-21T15:00:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-21T16:30:00+02:00"
         },
-        "Description": "Appointment with Sally, May, and Boris",
+        "Description": "Appointment",
         "Location": null,
-        "Participants": []
+        "Participants": [
+          "Sally",
+          "May",
+          "Boris"
+        ]
       },
       {
         "Action": "AddParticipantsAction",
-        "Day": null,
-        "TimeRange": null,
-        "Description": "",
+        "Day": "2023-07-21T08:00:00+02:00",
+        "TimeRange": {
+          "StartTime": "2023-07-21T15:00:00+02:00",
+          "EndTime": "2023-07-21T16:30:00+02:00"
+        },
+        "Description": "Add participants",
         "Location": null,
         "Participants": [
           "Jesse",
           "Abby"
         ]
-      },
-      {
-        "Action": "ChangeTimeRangeAction",
-        "Day": null,
-        "TimeRange": {
-          "StartTime": null,
-          "EndTime": null
-        },
-        "Description": "",
-        "Location": null,
-        "Participants": []
       }
     ]
   }

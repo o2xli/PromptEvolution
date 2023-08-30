@@ -5,12 +5,13 @@
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 2,
+        "Quantity": 1,
         "Size": "Small",
-        "Name": "pepperoni",
+        "Name": "Pepperoni",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "pineapple"
+          "Extra Sauce",
+          "Pineapple"
         ]
       },
       {
@@ -18,10 +19,11 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Small",
-        "Name": "pepperoni",
+        "Name": "Pepperoni",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "olives"
+          "Basil",
+          "Olives"
         ]
       }
     ]

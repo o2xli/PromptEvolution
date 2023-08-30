@@ -5,9 +5,9 @@
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
-        "Quantity": 2,
+        "Quantity": 1,
         "Size": "Large",
-        "Name": "Pepperoni",
+        "Name": "Pepperoni Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
           "Basil"
@@ -18,10 +18,10 @@
         "OrderItemType": "Pizza",
         "Quantity": 1,
         "Size": "Large",
-        "Name": "Extra Sauce",
+        "Name": "Extra Sauce Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "Canadian bacon"
+          "Canadian Bacon"
         ]
       },
       {
@@ -29,17 +29,37 @@
         "OrderItemType": "Salad",
         "Quantity": 1,
         "Size": "Whole",
+        "Name": "Salad",
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "ChangeQuantityAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Medium",
+        "Name": "Canadian Bacon Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "RemoveIngredientsAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Whole",
         "Name": "Greek Salad",
         "RemovedIngredients": [
-          "Red onions"
+          "Red Onions"
         ],
         "AddedIngredients": []
       },
       {
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
-        "Quantity": 1,
-        "Size": -1,
+        "Quantity": 2,
+        "Size": "Small",
         "Name": "Mack and Jacks",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -48,7 +68,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": -1,
+        "Size": "Small",
         "Name": "Sierra Nevada",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -58,9 +78,9 @@
         "OrderItemType": "Salad",
         "Quantity": 1,
         "Size": "Whole",
-        "Name": "Greek Salad",
+        "Name": "Salad",
         "RemovedIngredients": [
-          "Red onions"
+          "Red Onions"
         ],
         "AddedIngredients": []
       }

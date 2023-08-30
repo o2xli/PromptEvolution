@@ -7,17 +7,26 @@
         "OrderItemType": "Pizza",
         "Quantity": 4,
         "Size": "Large",
-        "Name": "pepperoni pizza",
+        "Name": "Pepperoni Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "AddIngredientsAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "Pepperoni Pizza",
         "RemovedIngredients": [],
         "AddedIngredients": [
-          "extra sauce"
+          "Extra Sauce"
         ]
       },
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "Pizza",
+        "OrderItemType": "NamedPizza",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "M&J",
         "RemovedIngredients": [],
         "AddedIngredients": []
@@ -26,7 +35,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Beer",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Pale Ale",
         "RemovedIngredients": [],
         "AddedIngredients": []

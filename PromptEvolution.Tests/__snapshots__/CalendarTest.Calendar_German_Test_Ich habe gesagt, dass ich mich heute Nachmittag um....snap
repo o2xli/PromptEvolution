@@ -4,10 +4,10 @@
     "EventActions": [
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-20T00:00:00+02:00",
+        "Day": "2023-07-20T14:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T14:00:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T15:00:00+02:00"
         },
         "Description": "Treffen mit Jenny",
         "Location": null,
@@ -17,23 +17,23 @@
       },
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-20T00:00:00+02:00",
+        "Day": "2023-07-20T15:30:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T15:30:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T16:30:00+02:00"
         },
-        "Description": "Zeit für Reinigung",
+        "Description": "Besuch der Reinigung",
         "Location": null,
         "Participants": []
       },
       {
         "Action": "AddEventAction",
-        "Day": "2023-07-20T00:00:00+02:00",
+        "Day": "2023-07-20T16:30:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-20T16:30:00+02:00",
-          "EndTime": null
+          "EndTime": "2023-07-20T17:30:00+02:00"
         },
-        "Description": "Zeit für Fußballspiel",
+        "Description": "Fußballspiel",
         "Location": null,
         "Participants": []
       }

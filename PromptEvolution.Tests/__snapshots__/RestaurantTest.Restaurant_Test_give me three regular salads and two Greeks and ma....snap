@@ -8,7 +8,9 @@
         "Quantity": 3,
         "Size": "Small",
         "Name": "Regular Salad",
-        "RemovedIngredients": [],
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
         "AddedIngredients": []
       },
       {
@@ -16,10 +18,8 @@
         "OrderItemType": "Salad",
         "Quantity": 2,
         "Size": "Small",
-        "Name": "Greek",
-        "RemovedIngredients": [
-          "Red Onions"
-        ],
+        "Name": "Greek Salad",
+        "RemovedIngredients": [],
         "AddedIngredients": []
       }
     ]

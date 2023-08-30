@@ -6,7 +6,7 @@
         "Action": "NewOrderAction",
         "OrderItemType": "Pizza",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Pepperoni",
         "RemovedIngredients": [],
         "AddedIngredients": [
@@ -18,9 +18,9 @@
       },
       {
         "Action": "NewOrderAction",
-        "OrderItemType": "NamedPizza",
+        "OrderItemType": "Salad",
         "Quantity": 1,
-        "Size": "Small",
+        "Size": "Whole",
         "Name": "Greek",
         "RemovedIngredients": [],
         "AddedIngredients": []

@@ -9,20 +9,20 @@
           "StartTime": "2023-07-21T12:00:00+02:00",
           "EndTime": null
         },
-        "Description": "lunch with Luis",
+        "Description": "Lunch with Luis",
         "Location": null,
         "Participants": [
           "Luis"
         ]
       },
       {
-        "Action": "AddEventAction",
+        "Action": "AddParticipantsAction",
         "Day": "2023-07-19T16:00:00+02:00",
         "TimeRange": {
           "StartTime": "2023-07-19T16:00:00+02:00",
           "EndTime": null
         },
-        "Description": "ping pong game",
+        "Description": "Ping pong game",
         "Location": null,
         "Participants": [
           "Isobel"
