@@ -1,0 +1,56 @@
+﻿{
+  "Request": "Ich hätte gern eine Peperoni mit extra Sauce, Basilikum und Rucola.Schönes Wetter haben wir ja.Dazu eine Ananas.Und dazu einen ganzen Griechen und ein Pils.Mann, die Mariners sind ganz schön in der Klemme. Und wie wär's mit einem Weizen.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Peperoni",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "extra Sauce",
+          "Basilikum",
+          "Rucola"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Ananas",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Salad",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Ganzen Griechen",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pils",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Weizen",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

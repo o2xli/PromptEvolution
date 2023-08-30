@@ -1,0 +1,72 @@
+﻿{
+  "Request": "Ich hätte gern zwei große mit Oliven und Pilzen.Und der erste bekommt extra Soße.  Der zweite bekommt Basilikum.  Beide bekommen Rucola.Und dazu ein Pils.Geben Sie mir zwei Griechen ohne rote Zwiebeln, eine halbe und eine ganze.Und ein großes mit Wurst und Pilzen.Dazu drei Pale Ales und ein Weizen.",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 2,
+        "Size": "Large",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Olives",
+          "Mushrooms",
+          "Extra Sauce",
+          "Basil",
+          "Rucola"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pils",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 2,
+        "Size": "Whole",
+        "Name": "Greek",
+        "RemovedIngredients": [
+          "Red Onions"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Pizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Sausage",
+          "Mushrooms"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 3,
+        "Size": "Small",
+        "Name": "Pale Ale",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Weizen",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

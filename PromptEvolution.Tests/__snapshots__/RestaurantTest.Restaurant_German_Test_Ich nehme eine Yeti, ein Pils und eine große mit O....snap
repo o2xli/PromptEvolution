@@ -1,0 +1,47 @@
+﻿{
+  "Request": "Ich nehme eine Yeti, ein Pils und eine große mit Oliven und nehme den Extra-Käse von der Yeti und füge eine griechische hinzu",
+  "Result": {
+    "Orders": [
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Yeti",
+        "RemovedIngredients": [
+          "Extra-Käse"
+        ],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "Beer",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Pils",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Large",
+        "Name": "Pizza",
+        "RemovedIngredients": [],
+        "AddedIngredients": [
+          "Oliven"
+        ]
+      },
+      {
+        "Action": "NewOrderAction",
+        "OrderItemType": "NamedPizza",
+        "Quantity": 1,
+        "Size": "Small",
+        "Name": "Greek",
+        "RemovedIngredients": [],
+        "AddedIngredients": []
+      }
+    ]
+  }
+}

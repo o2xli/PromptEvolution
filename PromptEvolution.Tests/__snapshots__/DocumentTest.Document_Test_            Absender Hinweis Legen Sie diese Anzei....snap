@@ -1,0 +1,21 @@
+﻿{
+  "Request": "            Absender: \n\nHinweis: \nLegen Sie diese Anzeige \nbitte zwei Wochen vor \ndem betreffenden Termin \nbei der Unteren Bauauf- \nsichtsbehörde vor! \n\nAktenzeichen \n\n00549-2019 \n\nBauherr/in \n\nHans-Jürgen Schmidt, Draisstraße 35b, 67346 Speyer \n\nVorhaben \n\nNeubau einer Garage \n\nLage \n\nSpeyer, Daimlerstraße 3 \n\nFlurstück/e \n\n5697/28 \n\nAnzeige über die abschließende Fertigstellung \n\nHiermit zeige ich gemäß $ 78 Abs. 2 Landesbauordnung Rheinland-Pfalz die abschließende Fertigstellung der \nbaulichen Anlage bis zum \n\nan \n\n4.5, 102] \n\ns \n\nan. Ich erkläre, dass die bauliche Anlage in Übereinstimmung mit den bauaufsichtlich genehmigten Plänen fer- \ntiggestellt wurde. \n\n[_] Antrag auf Ausstellung einer Abnahmebescheinigung \n\nSofern eine im Ermessen der Bauaufsichtsbehörde stehende Bauzustandsbesichtigung durchgeführt wird, \nbeantrage ich die Ausstellung einer gebührenpflichtigen Bescheinigung über das Ergebnis der Bauzu- \nstandsbesichtigung \n\n2140F2022 \n\nAH \n\nDatum, Unterschrift der Bauherrin/des Bauherrn \n\nBestätigung der bauleitenden Person \nAls von der Bauherrin/dem Bauherrn nach $ 55 LBauO mit der Bauleitung beauftragte Person bestätige ich \nhiermit, dass dieses Vorhaben von mir überwacht wurde und nach den genehmigten Bauunterlagen sowie unter \nBeachtung der baurechtlichen und sonstigen öffentlich-rechtlichen Vorschriften durchgeführt worden ist. \n\nVermerke (z.B. Abweichungen, ggf. Rückseite benutzen) \n\nDatum, Unterschrift der bauleitenden Person \n\nEmpfänger \n\nStadtverwaltung \n- Untere Bauaufsichtsbehörde - \nMaximilianstr. 100 \n\n67346 Speyer",
+  "Result": {
+    "Correspondents": [
+      "Hans-Jürgen Schmidt",
+      "Stadtverwaltung - Untere Bauaufsichtsbehörde"
+    ],
+    "Subject": "Anzeige über die abschließende Fertigstellung",
+    "Keywords": "Neubau, Garage, Fertigstellung, Bauaufsichtsbehörde, Bauherr",
+    "CreationDate": "2022-02-14T00:00:00+00:00",
+    "IBAN": "",
+    "BIC": "",
+    "DocumentType": "Invoice",
+    "OrderItems": [],
+    "Amount": 0,
+    "Currency": "",
+    "Persons": [
+      "Hans-Jürgen Schmidt"
+    ]
+  }
+}

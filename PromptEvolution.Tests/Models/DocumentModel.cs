@@ -10,7 +10,7 @@ namespace PromptEvolution.Tests.Models
     public record DocumentMetaData
     {
         [Required]
-        public string? Correspondent { get; set; }
+        public string[]? Correspondents { get; set; }
         [Required]
         public string? Subject { get; set; }
         [Required]
