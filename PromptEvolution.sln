@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromptEvolution.Translator", "PromptEvolution.Translator\PromptEvolution.Translator.csproj", "{56AE2C72-B3C2-42C3-ACF8-6CD8DFE071DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromptEvolution", "PromptEvolution.Translator\PromptEvolution.csproj", "{56AE2C72-B3C2-42C3-ACF8-6CD8DFE071DA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromptEvolution.Tests", "PromptEvolution.Tests\PromptEvolution.Tests.csproj", "{FC84EF3C-6CDC-456D-B2F9-E80EA214A98D}"
 EndProject

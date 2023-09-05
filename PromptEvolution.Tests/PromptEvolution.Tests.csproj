@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PromptEvolution.Translator\PromptEvolution.Translator.csproj" />
+    <ProjectReference Include="..\PromptEvolution.Translator\PromptEvolution.csproj" />
     <ProjectReference Include="..\Translator\PromptEvolution.Translator.csproj" />
   </ItemGroup>
 
