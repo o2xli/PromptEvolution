@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AskAI": {
+      "commandName": "Project",
+      "commandLineArgs": "\"freien spreicherplatz auf den lokalen festplatten\""
+    }
+  }
+}

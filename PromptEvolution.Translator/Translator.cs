@@ -1,22 +1,16 @@
-﻿using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using NJsonSchema;
-using OpenAI_API;
+using OpenAI_API.Chat;
 using OpenAI_API.Models;
 using Polly;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace PromptEvolution
 {
     public static class Translator
     {
 
-        public static async Task<T?> Translate<T>(string request,string? requestContext = null)
+        public static async Task<T?> Translate<T>(string request, string? requestContext = null)
         {
             var polly = Policy
            .Handle<Exception>()
@@ -28,12 +22,7 @@ namespace PromptEvolution
         }
         private static async Task<T?> TranslateInternal<T>(string request, string? requestContext = null)
         {
-            OpenAIAPI api = new OpenAIAPI();
-            var chat = api.Chat.CreateConversation();
-            chat.Model = Model.GPT4;
-            chat.RequestParameters.Temperature = 0.6;
-            chat.RequestParameters.TopP = 0.7;
-
+            Conversation chat = OpenAiHelpers.GetOpenAIChat(Model.GPT4, 0.6, 0.7);
 
             var schema = JsonSchema.FromType<T>();
 
@@ -58,7 +47,7 @@ namespace PromptEvolution
             chat.AppendUserInput(userInput);
 
             var result = await chat.GetResponseFromChatbotAsync().ConfigureAwait(false);
-            result = ExtractJsonCodeMarkDown(result);
+            result = OpenAiHelpers.ExtractJsonCodeMarkDown(result);
 
             if (!result.Trim().StartsWith("{") || !result.Trim().EndsWith("}"))
             {
@@ -84,7 +73,7 @@ namespace PromptEvolution
                 chat.AppendUserInput(userInput);
 
                 result = await chat.GetResponseFromChatbotAsync().ConfigureAwait(false);
-                result = ExtractJsonCodeMarkDown(result);
+                result = OpenAiHelpers.ExtractJsonCodeMarkDown(result);
             }
 
             var resultObject = JsonConvert.DeserializeObject<T>($"{result}");
@@ -92,20 +81,7 @@ namespace PromptEvolution
             return resultObject;
         }
 
-        private static string ExtractJsonCodeMarkDown(string input)
-        {
-            var result = input;
-            if (!result.Trim().StartsWith("{") || !result.Trim().EndsWith("}") && result.Contains("```json"))
-            {
-                var startTag = "```json";
-                var endTag = "```";
-                int startIndex = result.IndexOf(startTag) + startTag.Length;
-                int endIndex = result.IndexOf(endTag, startIndex);
-                result = result.Substring(startIndex, endIndex - startIndex);
-            }
-
-            return result;
-        }
         
+
     }
 }
